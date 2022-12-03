@@ -10,12 +10,13 @@ body
     top: 20%;
     left: 25%;
     background-color: white;
-    padding-bottom: 14vh;
+    padding-bottom: 6.1vh;
     padding-top: 3vh;
 }
 
 #settingsGroup ul
 {
+    margin-top: 2.8vh;
     list-style: none;
 }
 
@@ -53,14 +54,63 @@ body
   font-size: 14px;
 }
 
+#colorSpan
+{
+    color: #00BBF9;
+}
+
 #settingsGroup ion-icon
 {
     margin-right: 10px;
     font-size: 26px;
 }
 
-#otherBtn
+#settingsGroup h1
 {
     position: absolute;
-    top: 36vh;
+    top: 10px;
+    left: 50px;
+}
+
+#editAPI
+{
+    position: absolute;
+    top: 20%;
+    left: 41%;
+    background-color: white;
+    padding: 10vh 15vh 16.9vh 15vh;
+}
+
+#inputs
+{
+    display: flex;
+}
+
+#inputs ion-icon
+{
+    font-size: 25px;
+    margin-top: 8px;
+    margin-right: 20px;
+}
+
+#saveBtn
+{
+    position: absolute;
+    top: 25vh;
+    right: 25vh;
+}
+
+#getAPILink
+{
+    position: absolute;
+    left: 20.1vh;
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+#linebreaker
+{
+    border: 1px solid rgb(225, 225, 225);
+    margin-top: 5vh;
 }
