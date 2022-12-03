@@ -1,5 +1,3 @@
-
-
 function initMap(Lat, Lon) {
     const iss = { lat: Lat, lng: Lon };
     const map = new google.maps.Map(document.getElementById("map"), {

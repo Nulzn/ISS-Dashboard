@@ -14,6 +14,6 @@ request.onreadystatechange = function()
     }
 }
 
-export { lat, lon };
-
 request.send();
+
+export { lat, lon };
