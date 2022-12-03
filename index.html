@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script type="module" src="./index.js"></script>
+    <script type="module" src="./issAPI.js"></script>
+    <script type="module" src="./chart.js"></script>
+    <title>ISSTracker - Dashboard</title>
+  </head>
+  <body>
+    
+    <div class="navbar shadow shadow-md">
+      <h1 id="dashboardLbl">ISS<i><span id="boardLbl">TRACKER</span></i></h1>
+      <div id="linebreaker"></div>
+      <ul>
+        <a href="./index.html">
+          <li>
+            <span><ion-icon name="flash-outline"></ion-icon></span>
+            <span>Dashboard</span>
+          </li>
+        </a>
+        <a href="./login.html">
+          <li>
+            <span><ion-icon name="person-circle-outline"></ion-icon></span>
+            <span>Profile</span>
+          </li>
+        </a>
+
+        <p id="otherLbl">Other</p>
+
+        <a href="https://www.buymeacoffee.com/nulzn">
+          <li>
+            <span><ion-icon name="cash-outline"></ion-icon></span>
+            <span>Support</span>
+          </li>
+        </a>
+        <a href="">
+          <li id="about">
+            <span><ion-icon name="earth-outline"></ion-icon></span>
+            <span>About</span>
+          </li>
+        </a>
+        <a href="">
+          <li>
+            <span><ion-icon name="newspaper-outline"></ion-icon></span>
+            <span>Updates</span>
+          </li>
+        </a>
+        <a href="">
+          <li>
+            <span><ion-icon name="code-slash"></ion-icon></span>
+            <span>Projects</span>
+          </li>
+        </a>
+        <a href="">
+          <li>
+            <span><ion-icon name="add-outline"></ion-icon></span>
+            <span>Extras</span>
+          </li>
+        </a>
+      </ul>
+    </div>
+
+    <!--The div element for the map -->
+    <div id="map"></div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly"
+      defer
+    ></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
