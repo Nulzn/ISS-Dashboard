@@ -1,4 +1,4 @@
-import { lon, lat } from './issAPI.js';
+
 
 function initMap(Lat, Lon) {
     const iss = { lat: Lat, lng: Lon };
@@ -21,5 +21,5 @@ function initMap(Lat, Lon) {
 window.initMap = initMap;
 
 window.addEventListener('DOMContentLoaded', () => {
-    initMap(10.0, 10.0)
+    initMap(0.0, 0.0)
 })
