@@ -34,6 +34,10 @@ app.get('/bug/report', (req, res) => {
     res.render('bugreport.ejs');
 })
 
+app.get('/about', (req, res) => {
+    res.render('about.ejs');
+})
+
 var server = app.listen(port, () => {
 
 });
