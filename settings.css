@@ -10,13 +10,13 @@ body
     top: 20%;
     left: 25%;
     background-color: white;
-    padding-bottom: 16.1vh;
+    padding-bottom: 18.3vh;
     padding-top: 3vh;
 }
 
 #settingsGroup ul
 {
-    margin-top: 2.8vh;
+    margin-top: 5.8vh;
     list-style: none;
 }
 
@@ -106,7 +106,7 @@ body
     left: 20.1vh;
     text-decoration: none;
     font-size: 13px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 #linebreaker
@@ -198,3 +198,115 @@ body
   .slider.round:before {
     border-radius: 50%;
   }
+
+  .navbar
+{
+  background-color: white;
+  width: 22vh;
+  min-height: 105vh;
+  position: absolute;
+  left: -1.5vh;
+  top: -0.1vh;
+}
+
+.navbar ul
+{
+  position: absolute;
+  top: 10%;
+}
+
+.navbar li
+{
+  background-color: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(219, 219, 219);
+  list-style: none;
+  margin-bottom: 2.5vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
+.navbar li:hover
+{
+  background-color: #00BBF9;
+  color: white;
+  transition: all .5s linear;
+}
+
+.navbar a
+{
+  text-decoration: none;
+}
+
+.navbar ion-icon
+{
+  margin-right: 10px;
+  font-size: 26px;
+}
+
+.navbar span
+{
+  font-size: 14px;
+}
+
+#dashboardLbl
+{
+  position: absolute;
+  top: 15px;
+  left: 48px;
+  color: rgb(78, 77, 77);
+  font-size: 30px;
+}
+
+#linebreaker
+{
+  border: 1px solid rgb(225, 225, 225);
+  padding-left: 9vh;
+  padding-right: 9vh;
+  margin-top: 2.5vh;
+  position: absolute;
+  top: 50px;
+  left: 11px;
+}
+
+#about
+{
+  position: absolute;
+  top: 84vh;
+  left: 21px;
+  background-color: rgb(202, 202, 202);
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#about ion-icon
+{
+  color: white;
+}
+
+#otherLbl
+{
+  color: rgb(78, 77, 77);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#boardLbl
+{
+  color: #00BBF9;
+}
+
+#apiHelp
+{
+  position: absolute;
+  right: 23vh;
+}

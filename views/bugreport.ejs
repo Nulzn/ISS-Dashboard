@@ -9,6 +9,48 @@
     <title>ISSTracker - Bug Report</title>
 </head>
 <body>
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="navbar shadow shadow-md">
+              <h1 id="dashboardLbl">ISS<i><span id="boardLbl">TRACKER</span></i></h1>
+              <div id="linebreaker"></div>
+              <ul>
+                <a href="/">
+                  <li>
+                    <span><ion-icon name="navigate-outline"></ion-icon></span>
+                    <span>Dashboard</span>
+                  </li>
+                </a>
+                <a href="/settings">
+                  <li>
+                    <span><ion-icon name="settings-outline"></ion-icon></span>
+                    <span>Settings</span>
+                  </li>
+                </a>
+        
+                <p id="otherLbl">Other</p>
+                <a href="">
+                  <li id="about">
+                    <span><ion-icon name="earth-outline"></ion-icon></span>
+                    <span>About</span>
+                  </li>
+                </a>
+                <a href="/bug/report">
+                  <li>
+                    <span><ion-icon name="bug-outline"></ion-icon></span>
+                    <span>Bug Report</span>
+                  </li>
+                </a>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div id="map"></div>
+          </div>
+        </div>
+      </div>
+
     <form action="/bugreport" method="POST">
         <div id="reportFrame" class="container col-3 p-4 rounded">
             <div id="label">
