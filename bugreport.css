@@ -1,0 +1,67 @@
+body
+{
+    background-color: rgb(247, 247, 247) !important;
+}
+
+span
+{
+    font-size: 14px;
+    align-items: center;
+}
+
+#span1
+{
+    color: #00BBF9;
+}
+
+#reportFrame
+{
+    position: absolute;
+    top: 20%;
+    left: 37%;
+    background-color: white;
+}
+
+#label
+{
+    text-align: center;
+}
+
+#backLink
+{
+    position: absolute;
+    top: 61%;
+    left: 42%;
+    text-decoration: none;
+    background-color: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(178, 178, 178);
+    list-style: none;
+    margin-bottom: 2.5vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+#backLink:hover
+{
+  background-color: #00BBF9;
+  color: white;
+  transition: all .5s linear;
+}
+
+#backLink ion-icon
+{
+  margin-right: 10px;
+  font-size: 26px;
+}
+
+#backLink span
+{
+    font-size: 16px;
+}
